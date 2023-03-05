@@ -6,11 +6,11 @@ class Git
         Scanner s=new Scanner(System.in);
         //Addition 
         System.out.print("Enter First Number: ");
-        int a=s.nextInt();
+        double a=s.nextDouble();
         System.out.print("Enter Second Number: ");
-        int b=s.nextInt();
-        int c=a+b;
-        System.out.print("Addition: "+c);
+        double b=s.nextDouble();
+        double c=a+b;
+        System.out.print("Addition successfully Executed: "+c);
 
     }
 }
